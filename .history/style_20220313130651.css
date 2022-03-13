@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Space mono;
+}
+:root {
+  /* Primary*/
+
+  --cyan-primary: hsl(172, 67%, 45%);
+  /*--red: red;*/
+  /* Neutral*/
+
+  --Very-dark-cyan: hsl(183, 100%, 15%);
+  --Dark-grayish-cyan-1: hsl(186, 14%, 43%);
+  --Dark-grayish-cyan-2: hsl(184, 14%, 56%);
+  --Light-grayish-cyan-1: hsl(185, 41%, 84%);
+  --Light-grayish-cyan-2: hsl(189, 41%, 97%);
+  --White: hsl(0, 0%, 100%);
+}
+body {
+  background-color: var(--Light-grayish-cyan-1);
+  color: var(--Very-dark-cyan);
+}
+input,
+button {
+  border-radius: 5px;
+  /*! height: 25px; */
+  border-color: transparent;
+  font-weight: bold;
+  color: var(--Very-dark-cyan);
+  font-size: 20px;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  height: 500px;
+}
+.wrap {
+  flex-direction: column;
+  width: 75%;
+}
+img {
+  margin-bottom: 30px;
+  height: 50px;
+}
+.wrap-1 {
+  display: flex;
+  background-color: var(--White);
+  border-radius: 10px;
+}
+.wrap-1 > div {
+  width: 50%;
+  padding: 40px;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  color: var(--Very-dark-cyan);
+}
+
+#bill {
+  flex: 1;
+  text-align: right;
+  height: 10px;
+}
+
+#bill:hover {
+  border: 3px solid transparent;
+}
+#poeple {
+  text-align: right;
+}
+.select {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.percentage {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.percentage > input {
+  flex: 0 1 30%;
+}
+.percentage > input[type="button"] {
+  background-color: var(--Very-dark-cyan);
+  color: var(--White);
+}
+#Custom {
+  width: 30%;
+}
+#bill::placeholder {
+  background-image: url("images/icon-dollar.svg"); /* all icons in a single file */
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+#poeple::placeholder {
+  background-image: url("images/icon-person.svg"); /* all icons in a single file */
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+label {
+  display: flex;
+  justify-content: space-between;
+}
+label::after {
+  content: "can" "'t be zero";
+  font-size: 10px;
+  color: var(--red, transparent);
+}
+.right {
+  color: var(--White);
+  background-color: var(--Very-dark-cyan);
+  margin: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.top > div {
+  display: flex;
+  justify-content: space-between;
+}
+.top p::after {
+  content: "/ person";
+  font-size: 10px;
+  color: var(--Light-grayish-cyan-2);
+}
+#resert {
+  margin-top: 120px;
+  flex: 1;
+  height: 10px;
+}
+@media (max-width: 800px) {
+  main {
+    height: 900px;
+  }
+  .wrap {
+    width: 100%;
+  }
+  .wrap-1 {
+    flex-direction: column;
+    /*! width: 100%; */
+  }
+  .wrap-1 > div {
+    width: 100%;
+  }
+  .right {
+    font-size: 15px;
+    margin-right: 40px;
+    width: 60%;
+  }
+}
+
