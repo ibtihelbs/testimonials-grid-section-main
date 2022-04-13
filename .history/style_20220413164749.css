@@ -25,7 +25,7 @@ body {
   background-color: var(--Light-grayish-blue);
 }
 main {
-  
+  height: 100vh;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -35,28 +35,19 @@ main {
  padding:1rem;
  border-radius: 10px;
 }
-.testimonial>*{
-  padding: .5rem;
-}
 section:nth-child(1) {
   grid-area: first;
   background-color: var(--Moderate-violet);
-  color:var(--White);
 }
 
 section:nth-child(1) h6::before {
   content: url(images/image-daniel.jpg);
-  
   border-radius: 50%;
-}
-h5::after{
-  content:"Verified Graduate";
-  display:block;
 }
 section:nth-child(2) {
   grid-area: second;
   background-color: var(--Grayish-blue);
-  color:var(--White);
+  
 }
 section:nth-child(3) {
   grid-area: third;
@@ -66,14 +57,14 @@ section:nth-child(3) {
 }
 section:nth-child(4) {
   grid-area: four;
+  background-color: var(--Blackish-blue);
+  
   order: 5;
-  background-color: var(--White);
 }
 section:nth-child(5) {
   grid-area: fifth; 
-  
-  color: var(--White);
-  background-color: var(--Blackish-blue);
+  height: 100vh;
+  background-color: var(--White);
   order: 3;
 }
 
@@ -85,20 +76,7 @@ main {
 }
 img{
   border-radius: 50%;
-  padding: .2rem;
 }
-.figure{
-  display:flex;
-  align-items: center;
-}
-@media (max-width:800px) {
-  main {
-  display: grid;
-  grid-template-areas:
-     'first'
-    'second'
-    'third'
-    'four'
-    'fifth';
-}
+figure{
+  
 }

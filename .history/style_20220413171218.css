@@ -91,14 +91,4 @@ img{
   display:flex;
   align-items: center;
 }
-@media (max-width:800px) {
-  main {
-  display: grid;
-  grid-template-areas:
-     'first'
-    'second'
-    'third'
-    'four'
-    'fifth';
-}
-}
+@m

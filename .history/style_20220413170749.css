@@ -50,8 +50,7 @@ section:nth-child(1) h6::before {
   border-radius: 50%;
 }
 h5::after{
-  content:"Verified Graduate";
-  display:block;
+  content:"Verified "
 }
 section:nth-child(2) {
   grid-area: second;
@@ -85,20 +84,8 @@ main {
 }
 img{
   border-radius: 50%;
-  padding: .2rem;
 }
 .figure{
   display:flex;
   align-items: center;
-}
-@media (max-width:800px) {
-  main {
-  display: grid;
-  grid-template-areas:
-     'first'
-    'second'
-    'third'
-    'four'
-    'fifth';
-}
 }
