@@ -27,9 +27,8 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 
 ### Screenshot
-![alt text](https://github.com//ibtihelbs/testimonials-grid-section-main/blob/master/images/ibtihelbs-github-io-480x800phone-65dac9.png
-?raw=true)
-images/ibtihelbs-github-io-480x800phone-65dac9.png
+![alt text]https://github.com/ibtihelbs/testimonials-grid-section-main/blob/master/images/ibtihelbs-github-io-480x800phone-65dac9.png
+
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
