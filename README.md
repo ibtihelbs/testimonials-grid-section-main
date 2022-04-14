@@ -53,7 +53,16 @@ Users should be able to:
 
 CSS grid 
 .container{
-display:grid;
+  display: grid;
+  grid-template-areas:
+     'first'
+    'second'
+    'third'
+    'four'
+    'fifth';
+}
+.elements{
+ grid-area: first;
 }
 
 **Note: Delete this note and the content within this section and replace with your own learnings.**
