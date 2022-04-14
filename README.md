@@ -25,8 +25,9 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
-
+https://github.com/ibtihelbs/testimonials-grid-section-main/blob/master/images/ibtihelbs-github-io-1024x768desktop-65dac9.png
 ### Screenshot
+![](images/ibtihelbs-github-io-1024x768desktop-65dac9.png)
 ![](images/ibtihelbs-github-io-480x800phone-65dac9.png)
 
 https://github.com/ibtihelbs/testimonials-grid-section-main/blob/master/images/ibtihelbs-github-io-480x800phone-65dac9.png
